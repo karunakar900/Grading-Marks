@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>GRADING</title>
+</head>
+
+<body>
+    <h2>Grading-System</h2>
+    <div class="marks-container">
+        <h3>Grading-system-js</h3>
+        <label for="English">English</label>
+        <input type="number" id="m1"><br>
+        <label for="Hindi">Hindi</label>
+        <input type="number" id="m2"><br>
+        <label for="maths">Maths</label>
+        <input type="number" id="m3"><br>
+        <label for="Science">Science</label>
+        <input type="number" id="m4"><br>
+        <label for="Social">Social</label>
+        <input type="number" id="m5"><br>
+        <br>
+        <button onclick="calculategrade()">calculategrade</button>
+    </div>
+    <div class="Total-marks">
+        <h5>Total-Marks</h5>
+        <p><span id="total"></span></p>
+    </div>
+    <br>
+    <div class="Average">
+        <h5>Average-Marks</h5>
+        <p><span id="average"></span></p>
+    </div>
+    <br>
+    <div class="Grade">
+        <h5>Grade-Secured</h5>
+        <p><span id="grade"></span></p>
+    </div>
+    <p id="demo"></p>
+    <script src="index.js"></script>
+</body>
+
+</html>
